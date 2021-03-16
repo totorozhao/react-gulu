@@ -1,0 +1,28 @@
+{
+  "name": "react-gulu",
+  "version": "1.0.0",
+  "description": "react轮子",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totorozhao/react-gulu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/totorozhao/react-gulu/issues"
+  },
+  "homepage": "https://github.com/totorozhao/react-gulu#readme",
+  "dependencies": {
+    "webpack": "^5.26.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack-cli": "^4.5.0"
+  }
+}
