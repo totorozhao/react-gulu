@@ -12,7 +12,12 @@ ReactDom.render(
     {/* <Icon name="strawberry"></Icon>
     <Icon name="orange"></Icon>
     <Icon name="pear"></Icon> */}
-    <Icon name="falling" onClick={fn}></Icon>
+    <Icon name="falling" 
+    className="qqq"
+       onClick={fn}
+       onMouseEnter={()=>{console.log('enter')}}
+       onMouseLeave={()=>{console.log('leave')}}
+    ></Icon>
   </div>,
   document.querySelector("#root")
 )
