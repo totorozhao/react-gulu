@@ -1,7 +1,13 @@
-import ReactDom from 'react-dom'
-import React from 'react';
-import Icon from './icon/icon'
+import ReactDom from "react-dom"
+import React from "react"
+import Icon from "./icon/icon"
 
-ReactDom.render(<div>
+ReactDom.render(
+  <div>
     <Icon name="strawberry"></Icon>
-</div>,document.querySelector("#root"))
+    <Icon name="orange"></Icon>
+    <Icon name="pear"></Icon>
+    <Icon name="cherry"></Icon>
+  </div>,
+  document.querySelector("#root")
+)
