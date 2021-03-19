@@ -1,8 +1,9 @@
 import React from "react"
-import "../icons/strawberry.svg"
-import "../icons/cherry.svg"
-import "../icons/pear.svg"
-import "../icons/orange.svg"
+// import "../icons/strawberry.svg"
+// import "../icons/cherry.svg"
+// import "../icons/pear.svg"
+// import "../icons/orange.svg"
+import './importIcons'
 
 interface IconProps {
   name: string
