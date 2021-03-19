@@ -6,10 +6,10 @@ import React from "react"
 import './importIcons'
 
 import './icon.scss'
-interface IconProps {
+interface IconProps{
   name: string;
-//   onClick: React.MouseEventHandler<SVGAElement>
-  onClick: ()=>void
+  onClick: React.MouseEventHandler<SVGAElement>
+//   onClick: (e:React.MouseEvent)=>void
 }
 
 const Icon: React.FunctionComponent<IconProps> = (props) => {

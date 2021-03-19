@@ -3,8 +3,8 @@ import React from "react"
 import Icon from "./icon/icon"
 
 
-const fn = ()=>{
-    console.log('下载中....')
+const fn:React.MouseEventHandler<SVGAElement> = (e)=>{
+    console.log(e.target);
 }
 
 ReactDom.render(
