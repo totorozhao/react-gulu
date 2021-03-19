@@ -9,9 +9,9 @@ const fn:React.MouseEventHandler<SVGAElement> = (e)=>{
 
 ReactDom.render(
   <div>
-    {/* <Icon name="strawberry"></Icon>
+    <Icon name="strawberry"></Icon>
     <Icon name="orange"></Icon>
-    <Icon name="pear"></Icon> */}
+    <Icon name="pear"></Icon>
     <Icon name="falling" 
     className="qqq"
        onClick={fn}
