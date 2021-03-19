@@ -7,16 +7,16 @@ import './importIcons'
 
 import './icon.scss'
 interface IconProps {
-  name: string
+  name: string;
+//   onClick: React.MouseEventHandler<SVGAElement>
+  onClick: ()=>void
 }
 
 const Icon: React.FunctionComponent<IconProps> = (props) => {
   return (
-    <span >
-      <svg className='zui-icon'>
+      <svg className='zui-icon' onClick={props.onClick}>
         <use xlinkHref={`#${props.name}`}></use>
       </svg>
-    </span>
   )
 }
 
